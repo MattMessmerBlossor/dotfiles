@@ -77,5 +77,4 @@ autocmd FileType make setlocal noexpandtab
 
 " UR Housing Specific {
 autocmd BufWritePre * :%s/\s\+$//e  " remove trailing spaces
-autocmd BufWritePre *.py :! touch ~/django/wwu_housing/wsgi.py
 " }
